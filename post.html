@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css/utilities.css" />
+    <link rel="stylesheet" href="./style.css/style.css" />
+    <title>Post One</title>
+  </head>
+  <body id="home">
+    <header class="hero blog">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <span class="text-primary">Rio</span> Grappling<span
+            class="text-secondary"
+          >
+            Club</span
+          >
+          Stellenbosch
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#cases">Cases</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Blog</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="post">
+        <h2 class="post">Blog Post One</h2>
+        <p class="meta">
+          <i class="fas fa-user"></i>Posted by <strong>John Doe</strong> | April
+          19 2020
+        </p>
+        <img src="./Img/blog/blog1.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas
+          incidunt animi molestiae dolore accusamus vero voluptatem natus
+          facilis doloribus?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, tempore
+          facere. Eaque explicabo vel ipsam facilis praesentium blanditiis
+          molestias, repellendus veritatis corrupti sed. Modi magni iure
+          voluptatibus mollitia alias tenetur ea harum animi maxime laboriosam
+          corporis nam aperiam ad, exercitationem nobis obcaecati tempore odio
+          aliquam consequatur placeat beatae porro cupiditate tempora! Numquam
+          doloribus rem culpa quam provident! Nam, quaerat illo!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          nostrum expedita ex totam sint sit iusto maiores neque eveniet impedit
+          optio, earum rerum dolorum accusamus fugiat at non enim maxime ab
+          delectus suscipit voluptatibus minus hic possimus! Doloremque
+          voluptatum, in at dolore nemo illo! Commodi natus dolorum quam?
+          Laborum, quasi.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#cases">Cases</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p>Copyright &copy; 2020 - EdgeLedger</p>
+    </footer>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
+  </body>
+</html>
