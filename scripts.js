@@ -8,7 +8,7 @@ window.onscroll = function () {
   }
 };
 
-const links = document.querySelectorAll("#navbar a, btn");
+const links = document.querySelectorAll("#navbar a, .btn");
 
 for (const link of links) {
   link.addEventListener("click", clickHandler);

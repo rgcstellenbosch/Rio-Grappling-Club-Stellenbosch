@@ -155,7 +155,7 @@ img {
 }
 
 .team img {
-  border-radius: 50%;
+  min-width: 450px;
 }
 
 /* Callback form */
@@ -232,6 +232,10 @@ img {
 
 .footer .social > * {
   margin-right: 30px;
+}
+
+.footer-styling {
+  color: #4974b9;
 }
 
 /* Mobile */
