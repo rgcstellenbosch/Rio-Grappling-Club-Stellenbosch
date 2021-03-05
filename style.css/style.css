@@ -256,10 +256,11 @@ img {
     height: 140px;
     padding: 20px;
     text-align: center;
+    line-height: 1;
   }
 
   .navbar a {
-    padding: 10px;
+    padding: 1px;
     margin: 0 3px;
   }
 
@@ -275,7 +276,7 @@ img {
   }
 
   .team img {
-    width: 70%;
+    min-width: auto;
   }
 
   #logo-main {
