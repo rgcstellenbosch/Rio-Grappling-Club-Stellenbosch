@@ -253,7 +253,7 @@ img {
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    height: 140px;
+    height: 120px;
     padding: 20px;
     text-align: center;
     line-height: 1;
