@@ -283,4 +283,8 @@ img {
     padding-top: 125px;
     width: 200px;
   }
+  
+  .flex-items-text {
+    margin-top: 0;
+  }
 }
